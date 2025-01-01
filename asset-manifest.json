@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio_v2.0/static/css/main.9a1d2ad5.css",
+    "main.js": "/portfolio_v2.0/static/js/main.3078f358.js",
+    "static/js/488.48eca762.chunk.js": "/portfolio_v2.0/static/js/488.48eca762.chunk.js",
+    "static/media/Self.png": "/portfolio_v2.0/static/media/Self.4293b0917cb492e1845a.png",
+    "static/media/Hi.gif": "/portfolio_v2.0/static/media/Hi.988dfc0c63b937bc5234.gif",
+    "static/media/Mets.png": "/portfolio_v2.0/static/media/Mets.ffc5a07ee80cf134a8c5.png",
+    "static/media/JQuery.png": "/portfolio_v2.0/static/media/JQuery.fe87b076c969a5278db4.png",
+    "static/media/php.png": "/portfolio_v2.0/static/media/php.d60351a17721a04e98ae.png",
+    "static/media/PLMUN.png": "/portfolio_v2.0/static/media/PLMUN.34a1ddd81481a9d4561c.png",
+    "static/media/aspx.png": "/portfolio_v2.0/static/media/aspx.33b919f2c5deded7e764.png",
+    "static/media/MsSql.png": "/portfolio_v2.0/static/media/MsSql.f189c22a2803a3a11101.png",
+    "static/media/NodeJs.png": "/portfolio_v2.0/static/media/NodeJs.bd726de4d4ebdcc3ce98.png",
+    "index.html": "/portfolio_v2.0/index.html",
+    "main.9a1d2ad5.css.map": "/portfolio_v2.0/static/css/main.9a1d2ad5.css.map",
+    "main.3078f358.js.map": "/portfolio_v2.0/static/js/main.3078f358.js.map",
+    "488.48eca762.chunk.js.map": "/portfolio_v2.0/static/js/488.48eca762.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a1d2ad5.css",
+    "static/js/main.3078f358.js"
+  ]
+}
