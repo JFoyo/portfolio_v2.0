@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+    /* Smooth scroll on anchor link navigation */
+}
+
+.BG {
+    /* background-color: #28282B; */
+    background: rgb(0,3,89);
+    background: linear-gradient(0deg, rgba(0,3,89,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+/* Styles for sections */
+section {
+    padding: 100px 0px;
+}
+
+.card {
+    border: none !important;
+    width: auto;
+    background-color: transparent !important;
+}
+
+.card-body {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #198754;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}

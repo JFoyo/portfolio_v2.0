@@ -1,0 +1,16 @@
+.Greetings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.Hi {
+    height: 20%;
+    width: 20%;
+    align-self: center;
+}
+
+.custom-button{
+    width: 200px;
+}
