@@ -2,6 +2,7 @@
   "name": "portfolio_v2.0",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://JFoyo.github.io/portfolio_v2.0",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
@@ -43,6 +44,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.2.0"
-  },
-  "homepage": "https://JFoyo.github.io/portfolio_v2.0"
+  }
 }
