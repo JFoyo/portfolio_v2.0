@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://JFoyo.github.io/portfolio_v2.0",
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
@@ -11,6 +12,8 @@
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
     "react": "^19.0.0",
+    "react-bootstrap": "^2.10.7",
+    "react-confetti": "^6.2.2",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1",

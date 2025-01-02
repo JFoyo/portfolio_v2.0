@@ -1,14 +1,40 @@
-import react from "react";
+import react, { useState } from "react";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+// import GroceryComponent from "../Components/GroceryComponent";
+import "../CSS/Project.css";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faListCheck } from "@fortawesome/free-solid-svg-icons";
 
 function Project() {
+
+    // const [open, setOpen] = useState(false);
 
     const handleOpenLink = (url) => {
         window.open(url, "_blank", "noopener,noreferrer");
     };
 
+    const handleDownload = () => {
+        const fileUrl = "/QR Generator.zip"; // Path to the file in the public folder
+        const link = document.createElement('a');
+        link.href = fileUrl;
+        link.download = 'QR Generator.zip';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
+
     return (
         <div className="container">
+            {/* <div className="row">
+                <button data-toggle="collapse"
+                    className="btn btn-outline-primary btnProj"
+                    data-target="#demo"
+                    onClick={() => setOpen(!open)}
+                    aria-expanded={open}>
+                    Grocery Buddy <FontAwesomeIcon icon={faListCheck} />
+                </button>
+                {open && <GroceryComponent />}
+            </div> */}
             <div className="row">
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
                     <div className="card">
@@ -84,7 +110,7 @@ function Project() {
                                 autoplay
                             />
                             <h1 className="text-white mb-4 Name">QR Generator</h1>
-                            <button className="btn btn-outline-success" onClick={() => handleOpenLink("")} disabled>Open</button>
+                            <button className="btn btn-outline-success" onClick={handleDownload}>Download</button>
                         </div>
                     </div>
                 </div>

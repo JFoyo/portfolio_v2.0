@@ -1,0 +1,45 @@
+/* Custom modal styles */
+.Welcome .modal-content {
+    background-color: white;
+    padding: 30px 50px 20px 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* max-width: 400px; */
+    width: 100%;
+}
+
+.modal-container h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+.modal-container p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+}F
+
+.btn-primary {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 24px;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+.WelcomeName {
+    font-family: monospace;
+    margin-bottom: 15px !important;
+}
