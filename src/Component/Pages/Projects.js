@@ -13,15 +13,26 @@ function Project() {
         window.open(url, "_blank", "noopener,noreferrer");
     };
 
+    // const handleDownload = () => {
+    //     const fileUrl = "/QR Generator.zip"; // Path to the file in the public folder
+    //     const link = document.createElement('a');
+    //     link.href = fileUrl;
+    //     link.download = 'QR Generator.zip';
+    //     document.body.appendChild(link);
+    //     link.click();
+    //     document.body.removeChild(link);
+    // };
+
     const handleDownload = () => {
-        const fileUrl = "/QR Generator.zip"; // Path to the file in the public folder
+        const fileUrl = `${process.env.PUBLIC_URL}/QR-Generator.zip`; // Dynamic path
         const link = document.createElement('a');
         link.href = fileUrl;
-        link.download = 'QR Generator.zip';
+        link.download = 'QR-Generator.zip';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
-      };
+    };
+
 
     return (
         <div className="container">
