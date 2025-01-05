@@ -81,8 +81,8 @@ function Project() {
                                 loop
                                 autoplay
                             />
-                            <h1 className="text-white mb-4 Name">Beshify</h1>
-                            <button className="btn btn-outline-success" onClick={() => handleOpenLink("https://jfoyo.github.io/beshify/")}>Open</button>
+                            <h1 className="text-white mb-4 Name">Wordify</h1>
+                            <button className="btn btn-outline-success" onClick={() => handleOpenLink("https://jfoyo.github.io/wordify/")}>Open</button>
                         </div>
                     </div>
                 </div>
